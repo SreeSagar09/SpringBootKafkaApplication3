@@ -1,0 +1,1 @@
+A kafka producer and consumer with user defined object in spring boot:

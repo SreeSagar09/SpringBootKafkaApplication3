@@ -1,0 +1,18 @@
+A kafka producer and consumer with user defined object in spring boot:
+Programs:
+* SpringBootKafkaApplication3Application.java
+* OrderCotroller.java
+* Order.java
+* KafkaOrderConsumerService.java
+* KafkaOrderConsumerServiceImpl.java
+* KafkaOrderProducerService.java
+* KafkaOrderProducerServiceImpl.java
+Notes:
+* This property must be configured in property file 'spring.kafka.consumer.properties.spring.json.trusted.packages=*', other wise it will throw exception 'org.apache.kafka.common.errors.RecordDeserializationException'
+Output:
+To place order rest end point:
+http://localhost:8080/SpringBootKafkaApplication3/order/placeOrder
+
+Order [orderId=1305014226878800, orderName=Food Order, items=[Biryani, Rice, Cakes], orderDate=Wed Dec 17 23:00:55 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 50081]
+Order [orderId=1305126075665000, orderName=Food Order, items=[Biryani, Cakes], orderDate=Wed Dec 17 23:02:47 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 50081]
+Order [orderId=1305427455191700, orderName=Food Order, items=[Biryani, Cakes], orderDate=Wed Dec 17 23:07:48 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081]
