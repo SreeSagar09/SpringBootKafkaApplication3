@@ -14,3 +14,10 @@ Output:
 To place order rest end point:
 http://localhost:8080/SpringBootKafkaApplication3/order/placeOrder
 
+Order [orderId=541f5fab-48df-4303-96cf-48b5bc0dcaa7, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:06 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
+Order [orderId=9bcff634-56b6-4d5c-9ab2-128ad49e5756, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:06 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
+Order [orderId=5b91e28a-fdac-4209-89e6-7747512035d4, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:07 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
+Order [orderId=c6593cc8-25bc-401c-bfb8-a1b30bed39a2, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:08 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
+Order [orderId=ff28a658-9548-4bf7-9732-85cb3b36c8a1, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:09 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
+Order [orderId=1a4b01e4-225c-4065-a31f-ab2c970e53b3, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:10 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
+Order [orderId=0067f8e4-8143-4753-a788-7c98ded7aa8e, orderName=Food Order, items=[Biryani, Cakes], orderDate=Mon Jan 05 22:33:10 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081]
